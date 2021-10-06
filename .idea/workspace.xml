@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53c4a5c9-109b-4c45-9ace-675129f1a1f9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\IDEA-E\ch-0\202.7660.66\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1z7jbjZjO6wRDTuFwzdNVU6VNRH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53c4a5c9-109b-4c45-9ace-675129f1a1f9" name="Default Changelist" comment="" />
+      <created>1633506093703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633506093703</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding unversioned files">
+      <created>1633506478544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633506478544</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding BE project">
+      <created>1633506494024</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633506494024</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding FE project">
+      <created>1633506498064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633506498064</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding projects">
+      <created>1633506800078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633506800078</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Additional files">
+      <created>1633507261287</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633507261287</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial commit">
+      <created>1633507894365</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633507894365</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adding unversioned files" />
+    <MESSAGE value="Adding BE project" />
+    <MESSAGE value="Adding FE project" />
+    <MESSAGE value="Adding projects" />
+    <MESSAGE value="Additional files" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1634" y="0" key="CommitChangelistDialog2" timestamp="1633507324633">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1634" y="0" key="CommitChangelistDialog2/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507324633" />
+    <state x="-1827" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1633507013537">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1827" y="93" width="1095" height="535" key="DiffContextDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507013537" />
+    <state x="-1499" y="115" key="FileChooserDialogImpl" timestamp="1633506230691">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1499" y="115" key="FileChooserDialogImpl/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633506230691" />
+    <state x="-1827" y="93" width="1095" height="535" key="ShowDiffWithBranchDialog" timestamp="1633507013537">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1827" y="93" width="1095" height="535" key="ShowDiffWithBranchDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507013537" />
+    <state x="-1687" y="93" key="Vcs.Push.Dialog.v2" timestamp="1633507141077">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1687" y="93" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507141077" />
+    <state x="-1481" y="94" key="VcsDiffUtil.ChangesDialog" timestamp="1633507298583">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1481" y="94" key="VcsDiffUtil.ChangesDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507298583" />
+    <state x="-1499" y="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1633507220250">
+      <screen x="-1920" y="0" width="1280" height="720" />
+    </state>
+    <state x="-1499" y="222" key="git4idea.remote.GitConfigureRemotesDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507220250" />
+  </component>
+</project>
