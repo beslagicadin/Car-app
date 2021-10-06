@@ -1,0 +1,42 @@
+<div class = "container">
+    <div class = "card">
+        <div class = "card-body">
+            <h2>View car details</h2>
+            <div style='float:left'>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Circle-icons-car.svg/1200px-Circle-icons-car.svg.png"
+                style="margin-left:15%; margin-top:5%; width:350px;"/>
+            </div>
+            <div style="float:right; width:650px; margin-top:5%;">
+                <table class="table table-striped">
+                    <tr>
+                        <td>Manufacturer: </td>
+                        <td>{{car.manufacturer}}</td>
+                    </tr>
+                    <tr>
+                        <td>Model: </td>
+                        <td>{{car.model}}</td>
+                    </tr>
+                    <tr>
+                        <td>Fuel type: </td>
+                        <td>{{car.fuelType}}</td>
+                    </tr>
+                    <tr>
+                        <td>ACRISS: </td>
+                        <td>{{car.acriss}}</td>
+                    </tr>
+                    <tr>
+                        <td>Seats: </td>
+                        <td>{{car.seats}}</td>
+                    </tr>
+                </table>
+                <a [routerLink]="['../../main']">
+                    <button class="btn btn-danger">Cancel
+                        <mat-icon class="material-icons-outlined">
+                            keyboard_return
+                        </mat-icon>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>  
+</div>

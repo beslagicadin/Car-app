@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class = "navbar-nav">
+        <li class = "nav-item">
+            <a class = "nav-link" routerLink="main" routerLinkActive="active"> 
+                <h3>All cars list
+                    <mat-icon class="material-icons-outlined">
+                        view_list
+                    </mat-icon>
+                </h3>
+            </a>
+        </li>
+        <div class="vl"></div>
+        <li class = "nav-item">
+            <a class = "nav-link" routerLink="edit" routerLinkActive="active"> 
+                <h3>Add new car
+                    <mat-icon class="material-icons-outlined">
+                        add
+                    </mat-icon>
+                </h3> 
+            </a>
+    </ul>
+</nav>
+<br>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>

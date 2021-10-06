@@ -1,0 +1,143 @@
+<div class="col-md-6 offset-md-3">
+    <h2>Add new car to the list</h2>
+    <form (ngSubmit) = "onSubmit()" class="mat-dialog-content" #formControl="ngForm" [formGroup]="form">
+        <div class="form">
+            <div>
+            <mat-form-field class="new-form-input" appearance="legacy">
+                <mat-label>Manufacturer</mat-label>
+                <input matInput
+                    required
+                    class="form-control"
+                    autocomplete="off"
+                    minlength="1" maxlength="20"
+                    formControlName="manufacturer"
+                    [(ngModel)] = "car.manufacturer">
+            </mat-form-field>
+            </div>
+            <div>
+            <mat-form-field class="new-form-input" appearance="legacy">
+                <mat-label>Model</mat-label>
+                <input matInput
+                    required
+                    class="form-control"
+                    autocomplete="off"
+                    minlength="1" maxlength="20"                    
+                    formControlName="model"
+                    [(ngModel)] = "car.model">
+            </mat-form-field>
+            </div>
+            <div>
+            <mat-form-field class="new-form-input" appearance="legacy">
+                <mat-label>Fuel type</mat-label>
+                <select matNativeControl
+                    required
+                    class="form-control"
+                    autocomplete="off"
+                    formControlName="fuelType"
+                    [(ngModel)] = "car.fuelType">
+                  <option [ngValue]="null" [disabled]="true" >Fuel Type</option>
+                  <option *ngFor="let item of fuelTp" 
+                        [value]="item">
+                        {{item}}
+                    </option>
+                </select>
+            </mat-form-field>
+            </div>
+            <div>
+            <mat-form-field class="new-form-input" appearance="legacy">
+                <mat-label>Seats</mat-label>
+                <input matInput
+                        required
+                        class="form-control"
+                        autocomplete="off"
+                        formControlName="seats"
+                        [(ngModel)] = "car.seats"
+                        type="number"
+                        min="1" max="10"
+                        maxLength="2"
+                        onkeypress="return /([1-9]|10)/i.test(event.key)">
+                </mat-form-field>
+            <div>
+                <mat-label>ACRISS
+                    <a href="https://www.acriss.org/car-codes/" target="_blank">
+                        <mat-icon class="material-icons-outlined">
+                            info
+                        </mat-icon>
+                    </a>
+                    <br>
+                </mat-label>
+                <mat-form-field class="new-form-input-inline" appearance="legacy">
+                    <mat-label>Category</mat-label>
+                    <select matNativeControl
+                            required
+                            class="form-control"
+                            autocomplete="off"
+                            formControlName="category"
+                            [(ngModel)] = "cat">
+                    <option *ngFor="let item of category" 
+                        [value]="item">
+                        {{item}}
+                    </option>
+                    </select>
+                </mat-form-field>
+                <mat-form-field class="new-form-input-inline" appearance="legacy">
+                    <mat-label>Type</mat-label>
+                    <select matNativeControl
+                            required
+                            class="form-control"
+                            autocomplete="off"
+                            formControlName="type"
+                            [(ngModel)] = "tp">
+                    <option *ngFor="let item of type" 
+                        [value]="item">
+                        {{item}}
+                    </option>
+                    </select>
+                </mat-form-field>
+                <mat-form-field class="new-form-input-inline" appearance="legacy">
+                    <mat-label>Transmission and drive</mat-label>
+                    <select matNativeControl
+                            required
+                            class="form-control"
+                            autocomplete="off"
+                            formControlName="transmissionAndDrive"
+                            [(ngModel)] = "tnd">
+                    <option *ngFor="let item of transmisionAndDrive" 
+                        [value]="item">
+                        {{item}}
+                    </option>
+                    </select>
+                </mat-form-field>
+                <mat-form-field class="new-form-input-inline" appearance="legacy">
+                    <mat-label>Fuel and AC</mat-label>
+                    <select matNativeControl
+                            required
+                            class="form-control"
+                            autocomplete="off"
+                            formControlName="fuelAndAC"
+                            [(ngModel)] = "faac">
+                    <option *ngFor="let item of fuelAndAC" 
+                        [value]="item">
+                        {{item}}
+                    </option>
+                    </select>
+                </mat-form-field>
+            </div>
+        </div>
+        </div>
+        <p *ngIf="form.valid" style="color: green">Form is valid!</p>
+        <p *ngIf="!form.valid" style="color: red">Form not valid!</p>
+        <button class ="btn btn-success" [disabled]="!form.valid">Submit
+            <mat-icon class="material-icons-outlined">
+                save
+            </mat-icon>
+        </button>
+        <a [routerLink]="toMain">
+            <button class="btn btn-danger" style="margin-left:10px">Cancel
+                <mat-icon class="material-icons-outlined">
+                    keyboard_return
+                </mat-icon>
+            </button>
+        </a>
+    </form>
+</div>

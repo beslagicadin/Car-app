@@ -1,0 +1,67 @@
+<h2 class="text-center">
+    All cars 
+    <mat-icon class="material-icons-outlined">
+        directions_car_filled
+    </mat-icon>
+</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Manufacturer
+                <mat-icon class="material-icons-outlined">
+                    precision_manufacturing
+                </mat-icon>
+            </th>
+            <th>Model
+                <mat-icon class="material-icons-outlined">
+                    square_foot
+                </mat-icon>
+            </th>
+            <th>Fuel type
+                <mat-icon class="material-icons-outlined">
+                    local_gas_station
+                </mat-icon>
+            </th>
+            <th>ACRISS
+                <mat-icon class="material-icons-outlined">
+                    code
+                </mat-icon>
+            </th>
+            <th>Seats
+                <mat-icon class="material-icons-outlined">
+                    airline_seat_recline_normal
+                </mat-icon>
+            </th>
+            <th>More
+                <mat-icon class="material-icons-outlined">
+                    more_horiz
+                </mat-icon>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let car of cars">
+            <td>{{car.manufacturer}}</td>
+            <td>{{car.model}}</td>
+            <td>{{car.fuelType}}</td>
+            <td>{{car.acriss}}</td>
+            <td>{{car.seats}}</td>
+            <td>
+                <button (click)= "editCar(car.id)" class="btn btn-info">Edit
+                    <mat-icon class="material-icons-outlined">
+                        edit
+                    </mat-icon>
+                </button>
+                <button (click)= "deleteCar(car.id)" class="btn btn-danger" style="margin-left:10px">Delete
+                    <mat-icon class="material-icons-outlined">
+                        delete
+                    </mat-icon>
+                </button>
+                <button (click)= "viewCar(car.id)" class="btn btn-secondary" style="margin-left:10px">Details
+                    <mat-icon class="material-icons-outlined">
+                        info
+                    </mat-icon>
+                </button>
+            </td>
+    </tbody>
+</table>
