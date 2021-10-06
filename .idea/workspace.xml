@@ -6,6 +6,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
@@ -152,10 +161,10 @@
       <screen x="-1920" y="0" width="1280" height="720" />
     </state>
     <state x="-1634" y="0" key="CommitChangelistDialog2/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507324633" />
-    <state x="-1827" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1633507013537">
+    <state x="-1827" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1633509117586">
       <screen x="-1920" y="0" width="1280" height="720" />
     </state>
-    <state x="-1827" y="93" width="1095" height="535" key="DiffContextDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507013537" />
+    <state x="-1827" y="93" width="1095" height="535" key="DiffContextDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633509117586" />
     <state x="-1499" y="115" key="FileChooserDialogImpl" timestamp="1633506230691">
       <screen x="-1920" y="0" width="1280" height="720" />
     </state>
@@ -172,9 +181,9 @@
       <screen x="-1920" y="0" width="1280" height="720" />
     </state>
     <state x="-1481" y="94" key="VcsDiffUtil.ChangesDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507298583" />
-    <state x="-1499" y="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1633507220250">
+    <state x="-1499" y="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1633509136185">
       <screen x="-1920" y="0" width="1280" height="720" />
     </state>
-    <state x="-1499" y="222" key="git4idea.remote.GitConfigureRemotesDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633507220250" />
+    <state x="-1499" y="222" key="git4idea.remote.GitConfigureRemotesDialog/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1633509136185" />
   </component>
 </project>
