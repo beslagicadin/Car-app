@@ -39,7 +39,7 @@ public class Car {
                 ", name='" + manufacturer + '\'' +
                 ", model='" + model + '\'' +
                 ", fuelType='" + fuelType + '\'' +
-                ", accris='" + acriss + '\'' +
+                ", acriss='" + acriss + '\'' +
                 ", seats='" + seats + '\'' +
                 '}';
     }
