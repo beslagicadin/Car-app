@@ -16,6 +16,16 @@ A full-stack application with a Spring Boot REST API backend and an Angular fron
 - **Database:** MySQL
 - **Build:** Maven, npm
 
+## API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/car/main` | List all cars |
+| GET | `/car/{id}` | Get car by ID |
+| POST | `/car/edit` | Add a new car |
+| POST | `/car/edit/{id}` | Update an existing car |
+| DELETE | `/car/delete/{id}` | Delete a car |
+
 ## Setup
 
 ### Backend
