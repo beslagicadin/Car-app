@@ -50,4 +50,4 @@ A full-stack application with a Spring Boot REST API backend and an Angular fron
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This software is all rights reserved. Use, copying, modification, or distribution requires prior written permission from the author. See the [LICENSE](LICENSE) file for full terms or contact [beslagicadin@gmail.com](mailto:beslagicadin@gmail.com) to request permission.
